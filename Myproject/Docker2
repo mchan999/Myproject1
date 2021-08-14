@@ -1,0 +1,7 @@
+FROM Python: 3
+
+ADD hello.py /
+
+RUN pip install pystrich 
+
+CMD ["Python", "./hello.py"]

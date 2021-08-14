@@ -1,0 +1,12 @@
+FROM Python: 3.7
+
+WORKDIR C:\\AUTOMAP
+
+COPY AUTOMAP.ps1 .
+COPY MAIN.ps1 .
+COPY MCPDir.py 
+ADD hello.py .
+
+CMD ["Python", "./hello.y"]
+
+CADD 2
